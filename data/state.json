@@ -110,6 +110,16 @@
   "snapshots": [],
   "audit": [
     {
+      "id": "legacy-import-2026-09-03",
+      "entityType": "snapshot",
+      "entityId": "group-announcement-2026-09-01",
+      "action": "create",
+      "actor": "Codex",
+      "before": null,
+      "after": { "months": ["2026-06", "2026-07", "2026-08"], "tianhuBaselinePlayers": 16, "source": "用户提供的群公告截图" },
+      "createdAt": "2026-09-03T04:00:00.000Z"
+    },
+    {
       "id": "f36c49ca-e9e0-48c5-85fe-aee366956302",
       "entityType": "special_event",
       "entityId": "58eabc93-3614-43b7-8c14-d96da3837db0",
@@ -126,5 +136,93 @@
       "createdAt": "2026-09-03T03:21:26.897Z"
     }
   ],
+  "monthlyStandings": [
+    {
+      "month": "2026-08",
+      "source": "群公告截图（前两名未显示）",
+      "incomplete": true,
+      "entries": [
+        { "rank": 3, "name": "李徒冲S", "score": 31.5, "tier": "A" },
+        { "rank": 4, "name": "A班我最牛", "score": 30, "tier": "A" },
+        { "rank": 5, "name": "李挂冲A", "score": 20, "tier": "A" },
+        { "rank": 6, "name": "还想继续S班的女大", "score": 16.5, "tier": "A" },
+        { "rank": 7, "name": "oyo", "score": 9, "tier": "B" },
+        { "rank": 8, "name": "自mo三家", "score": 7, "tier": "B" },
+        { "rank": 9, "name": "F了", "score": 3, "tier": "B" },
+        { "rank": 10, "name": "C班才绍", "score": 1, "tier": "B" },
+        { "rank": 11, "name": "🌼 alex", "score": 0.5, "tier": "B" },
+        { "rank": 12, "name": "账做不平熊会计", "score": -6, "tier": "C" },
+        { "rank": 13, "name": "DB", "score": -10, "tier": "C" },
+        { "rank": 14, "name": "可心", "score": -11.5, "tier": "C" },
+        { "rank": 15, "name": "李戒（点赞=臭鸡蛋）", "score": -13, "tier": "C" },
+        { "rank": 16, "name": "魔法披风", "score": -13.5, "tier": "C" }
+      ]
+    },
+    {
+      "month": "2026-07",
+      "source": "群公告截图（第一名未显示）",
+      "incomplete": true,
+      "entries": [
+        { "rank": 2, "name": "瓜瓜乐", "score": 142.5, "tier": "A" },
+        { "rank": 3, "name": "oyo", "score": 83, "tier": "A" },
+        { "rank": 4, "name": "李姐", "score": 80.5, "tier": "A" },
+        { "rank": 5, "name": "我最牛", "score": 26.5, "tier": "A" },
+        { "rank": 6, "name": "熊会计", "score": 22, "tier": "A" },
+        { "rank": 7, "name": "李F", "score": 21, "tier": "B" },
+        { "rank": 8, "name": "魔法披风", "score": 8, "tier": "B" },
+        { "rank": 9, "name": "可心", "score": 1.5, "tier": "B" },
+        { "rank": 10, "name": "李莲", "score": 0.5, "tier": "B" },
+        { "rank": 11, "name": "自mo三家", "score": 0, "tier": "B" },
+        { "rank": 12, "name": "mengxia", "score": -1, "tier": "C" },
+        { "rank": 13, "name": "李wer", "score": -7, "tier": "C" },
+        { "rank": 14, "name": "DB", "score": -23, "tier": "C" },
+        { "rank": 15, "name": "李挂", "score": -27, "tier": "C" },
+        { "rank": 16, "name": "李X", "score": -29, "tier": "C" },
+        { "rank": 17, "name": "caishao", "score": -39, "tier": "D" },
+        { "rank": 18, "name": "李徒", "score": -40.5, "tier": "D" },
+        { "rank": 19, "name": "陪陪", "score": -93.5, "tier": "D" }
+      ]
+    },
+    {
+      "month": "2026-06",
+      "source": "群公告截图（第一名未显示）",
+      "incomplete": true,
+      "entries": [
+        { "rank": 2, "name": "牌神", "score": 151.5, "tier": "A" },
+        { "rank": 3, "name": "李X", "score": 127.5, "tier": "A" },
+        { "rank": 4, "name": "oyo", "score": 74, "tier": "A" },
+        { "rank": 5, "name": "瓜瓜乐", "score": 45, "tier": "A" },
+        { "rank": 6, "name": "自mo", "score": 40.5, "tier": "B" },
+        { "rank": 7, "name": "李戒", "score": 21.5, "tier": "B" },
+        { "rank": 8, "name": "李莲", "score": 18.5, "tier": "B" },
+        { "rank": 9, "name": "李姐", "score": 9, "tier": "B" },
+        { "rank": 10, "name": "魔法披风", "score": 5.5, "tier": "B" },
+        { "rank": 11, "name": "李wer", "score": -4, "tier": "C" },
+        { "rank": 12, "name": "mengxia", "score": -12.5, "tier": "C" },
+        { "rank": 13, "name": "李挂", "score": -13, "tier": "C" },
+        { "rank": 14, "name": "李F", "score": -19, "tier": "C" },
+        { "rank": 15, "name": "可心", "score": -23, "tier": "C" }
+      ]
+    }
+  ],
+  "tianhuBaselines": [
+    { "playerId": "p1", "reportedCount": 8, "knownDates": ["5.28", "7.15", "8.6", "8.28", "10.19", "1.5", "4.9"], "asOf": "2026-09-01", "source": "群公告，缺1个日期" },
+    { "playerId": "p2", "reportedCount": 7, "knownDates": ["8.30", "9.25", "2.18", "6.2", "7.13"], "asOf": "2026-09-01", "source": "群公告，缺2个日期" },
+    { "playerId": "p3", "reportedCount": 6, "knownDates": ["6.26", "6.28", "10.31", "12.3", "5.21"], "asOf": "2026-09-01", "source": "群公告，缺1个日期" },
+    { "playerId": "p4", "reportedCount": 5, "knownDates": ["9.2", "9.5", "1.23", "6.8", "7.30"], "asOf": "2026-09-01", "source": "群公告" },
+    { "playerId": "p5", "reportedCount": 4, "knownDates": ["5.6", "5.27"], "asOf": "2026-09-01", "source": "群公告，缺2个日期" },
+    { "playerId": "p6", "reportedCount": 3, "knownDates": ["12.10", "12.11", "4.7"], "asOf": "2026-09-01", "source": "群公告" },
+    { "playerId": "p7", "reportedCount": 3, "knownDates": ["6.17", "11.11", "6.15"], "asOf": "2026-09-01", "source": "群公告" },
+    { "playerId": "p8", "reportedCount": 3, "knownDates": ["8.12", "6.18", "6.24"], "asOf": "2026-09-01", "source": "群公告" },
+    { "playerId": "p9", "reportedCount": 2, "knownDates": ["9.24", "12.12"], "asOf": "2026-09-01", "source": "群公告" },
+    { "playerId": "p10", "reportedCount": 1, "knownDates": [], "asOf": "2026-09-01", "source": "群公告，日期未显示" },
+    { "playerId": "p11", "reportedCount": 1, "knownDates": [], "asOf": "2026-09-01", "source": "群公告，日期未显示" },
+    { "playerId": "p12", "reportedCount": 1, "knownDates": ["4.28"], "asOf": "2026-09-01", "source": "群公告" },
+    { "playerId": "p13", "reportedCount": 1, "knownDates": ["1.27"], "asOf": "2026-09-01", "source": "群公告" },
+    { "playerId": "p14", "reportedCount": 1, "knownDates": ["3.25"], "asOf": "2026-09-01", "source": "群公告" },
+    { "playerId": "p15", "reportedCount": 1, "knownDates": ["5.26"], "asOf": "2026-09-01", "source": "群公告" },
+    { "playerId": "p16", "reportedCount": 1, "knownDates": ["7.8"], "asOf": "2026-09-01", "source": "群公告" }
+  ],
+  "monthlyScores": [],
   "demo": false
 }
