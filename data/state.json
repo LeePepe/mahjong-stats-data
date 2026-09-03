@@ -1,25 +1,130 @@
 {
   "players": [
-    { "id": "p1", "name": "佳", "aliases": [], "active": true },
-    { "id": "p2", "name": "桂", "aliases": [], "active": true },
-    { "id": "p3", "name": "blue", "aliases": [], "active": true },
-    { "id": "p4", "name": "evol", "aliases": [], "active": true },
-    { "id": "p5", "name": "熊大", "aliases": [], "active": true },
-    { "id": "p6", "name": "李姐", "aliases": [], "active": true },
-    { "id": "p7", "name": "lin团", "aliases": [], "active": true },
-    { "id": "p8", "name": "oyo", "aliases": [], "active": true },
-    { "id": "p9", "name": "jingjing", "aliases": [], "active": true },
-    { "id": "p10", "name": "felix", "aliases": [], "active": true },
-    { "id": "p11", "name": "psq", "aliases": [], "active": true },
-    { "id": "p12", "name": "jean", "aliases": [], "active": true },
-    { "id": "p13", "name": "momo", "aliases": [], "active": true },
-    { "id": "p14", "name": "kexin", "aliases": [], "active": true },
-    { "id": "p15", "name": "db", "aliases": [], "active": true },
-    { "id": "p16", "name": "Tianpei", "aliases": [], "active": true }
+    {
+      "id": "p1",
+      "name": "佳",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p2",
+      "name": "桂",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p3",
+      "name": "blue",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p4",
+      "name": "evol",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p5",
+      "name": "熊大",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p6",
+      "name": "李姐",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p7",
+      "name": "lin团",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p8",
+      "name": "oyo",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p9",
+      "name": "jingjing",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p10",
+      "name": "felix",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p11",
+      "name": "psq",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p12",
+      "name": "jean",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p13",
+      "name": "momo",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p14",
+      "name": "kexin",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p15",
+      "name": "db",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "p16",
+      "name": "Tianpei",
+      "aliases": [],
+      "active": true
+    }
   ],
   "matches": [],
-  "specialEvents": [],
+  "specialEvents": [
+    {
+      "id": "58eabc93-3614-43b7-8c14-d96da3837db0",
+      "playerId": "p1",
+      "occurredOn": "2026-09-03",
+      "type": "tianhu",
+      "note": ""
+    }
+  ],
   "snapshots": [],
-  "audit": [],
+  "audit": [
+    {
+      "id": "f36c49ca-e9e0-48c5-85fe-aee366956302",
+      "entityType": "special_event",
+      "entityId": "58eabc93-3614-43b7-8c14-d96da3837db0",
+      "action": "create",
+      "actor": "tianpei",
+      "before": null,
+      "after": {
+        "id": "58eabc93-3614-43b7-8c14-d96da3837db0",
+        "playerId": "p1",
+        "occurredOn": "2026-09-03",
+        "type": "tianhu",
+        "note": ""
+      },
+      "createdAt": "2026-09-03T03:21:26.897Z"
+    }
+  ],
   "demo": false
 }
