@@ -102,6 +102,16 @@
   "snapshots": [],
   "audit": [
     {
+      "id": "complete-rankings-2026-09-03",
+      "entityType": "snapshot",
+      "entityId": "full-rankings-june-august",
+      "action": "update",
+      "actor": "Codex",
+      "before": { "incomplete": true },
+      "after": { "months": ["2026-06", "2026-07", "2026-08"], "incomplete": false, "source": "用户补充的完整榜单截图" },
+      "createdAt": "2026-09-03T04:30:00.000Z"
+    },
+    {
       "id": "legacy-import-2026-09-03",
       "entityType": "snapshot",
       "entityId": "group-announcement-2026-09-01",
@@ -115,9 +125,11 @@
   "monthlyStandings": [
     {
       "month": "2026-08",
-      "source": "群公告截图（前两名未显示）",
-      "incomplete": true,
+      "source": "用户补充的完整群公告截图",
+      "incomplete": false,
       "entries": [
+        { "rank": 1, "name": "李莲", "score": 52, "tier": "S" },
+        { "rank": 2, "name": "瓜瓜乐", "score": 41, "tier": "A" },
         { "rank": 3, "name": "李徒冲S", "score": 31.5, "tier": "A" },
         { "rank": 4, "name": "A班我最牛", "score": 30, "tier": "A" },
         { "rank": 5, "name": "李挂冲A", "score": 20, "tier": "A" },
@@ -131,14 +143,20 @@
         { "rank": 13, "name": "DB", "score": -10, "tier": "C" },
         { "rank": 14, "name": "可心", "score": -11.5, "tier": "C" },
         { "rank": 15, "name": "李戒（点赞=臭鸡蛋）", "score": -13, "tier": "C" },
-        { "rank": 16, "name": "魔法披风", "score": -13.5, "tier": "C" }
+        { "rank": 16, "name": "魔法披风", "score": -13.5, "tier": "C" },
+        { "rank": 17, "name": "伍萨奇", "score": -14, "tier": "F" },
+        { "rank": 18, "name": "李wer", "score": -17, "tier": "F" },
+        { "rank": 19, "name": "李姐技术流", "score": -19.5, "tier": "F" },
+        { "rank": 20, "name": "陪陪", "score": -46.5, "tier": "F" },
+        { "rank": 21, "name": "F班李X", "score": -60.5, "tier": "F" }
       ]
     },
     {
       "month": "2026-07",
-      "source": "群公告截图（第一名未显示）",
-      "incomplete": true,
+      "source": "用户补充的完整群公告截图",
+      "incomplete": false,
       "entries": [
+        { "rank": 1, "name": "女大", "score": 167.5, "tier": "S" },
         { "rank": 2, "name": "瓜瓜乐", "score": 142.5, "tier": "A" },
         { "rank": 3, "name": "oyo", "score": 83, "tier": "A" },
         { "rank": 4, "name": "李姐", "score": 80.5, "tier": "A" },
@@ -156,14 +174,17 @@
         { "rank": 16, "name": "李X", "score": -29, "tier": "C" },
         { "rank": 17, "name": "caishao", "score": -39, "tier": "D" },
         { "rank": 18, "name": "李徒", "score": -40.5, "tier": "D" },
-        { "rank": 19, "name": "陪陪", "score": -93.5, "tier": "D" }
+        { "rank": 19, "name": "陪陪", "score": -93.5, "tier": "D" },
+        { "rank": 20, "name": "李戒", "score": -109.5, "tier": "D" },
+        { "rank": 21, "name": "537", "score": -183.5, "tier": "D" }
       ]
     },
     {
       "month": "2026-06",
-      "source": "群公告截图（第一名未显示）",
-      "incomplete": true,
+      "source": "用户补充的完整群公告截图",
+      "incomplete": false,
       "entries": [
+        { "rank": 1, "name": "537", "score": 185.5, "tier": "S" },
         { "rank": 2, "name": "牌神", "score": 151.5, "tier": "A" },
         { "rank": 3, "name": "李X", "score": 127.5, "tier": "A" },
         { "rank": 4, "name": "oyo", "score": 74, "tier": "A" },
@@ -177,7 +198,12 @@
         { "rank": 12, "name": "mengxia", "score": -12.5, "tier": "C" },
         { "rank": 13, "name": "李挂", "score": -13, "tier": "C" },
         { "rank": 14, "name": "李F", "score": -19, "tier": "C" },
-        { "rank": 15, "name": "可心", "score": -23, "tier": "C" }
+        { "rank": 15, "name": "可心", "score": -23, "tier": "C" },
+        { "rank": 16, "name": "caishao", "score": -31.5, "tier": "F" },
+        { "rank": 17, "name": "我真牛", "score": -115, "tier": "F" },
+        { "rank": 18, "name": "可沁", "score": -121.5, "tier": "F" },
+        { "rank": 19, "name": "李徒", "score": -163, "tier": "F" },
+        { "rank": 20, "name": "DB", "score": -190, "tier": "F" }
       ]
     }
   ],
