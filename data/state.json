@@ -98,15 +98,7 @@
     }
   ],
   "matches": [],
-  "specialEvents": [
-    {
-      "id": "58eabc93-3614-43b7-8c14-d96da3837db0",
-      "playerId": "p1",
-      "occurredOn": "2026-09-03",
-      "type": "tianhu",
-      "note": ""
-    }
-  ],
+  "specialEvents": [],
   "snapshots": [],
   "audit": [
     {
@@ -118,22 +110,6 @@
       "before": null,
       "after": { "months": ["2026-06", "2026-07", "2026-08"], "tianhuBaselinePlayers": 16, "source": "用户提供的群公告截图" },
       "createdAt": "2026-09-03T04:00:00.000Z"
-    },
-    {
-      "id": "f36c49ca-e9e0-48c5-85fe-aee366956302",
-      "entityType": "special_event",
-      "entityId": "58eabc93-3614-43b7-8c14-d96da3837db0",
-      "action": "create",
-      "actor": "tianpei",
-      "before": null,
-      "after": {
-        "id": "58eabc93-3614-43b7-8c14-d96da3837db0",
-        "playerId": "p1",
-        "occurredOn": "2026-09-03",
-        "type": "tianhu",
-        "note": ""
-      },
-      "createdAt": "2026-09-03T03:21:26.897Z"
     }
   ],
   "monthlyStandings": [
